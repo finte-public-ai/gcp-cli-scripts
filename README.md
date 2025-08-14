@@ -6,6 +6,7 @@ Collection of CLI scripts to interact with GCP
 Creates a custom FinteReadOnlyRole with necessary permissions at the organization level. Note, it needs to use the IAM API at the project level, which is why a Project ID is required. If the IAM API is not enabled, the script will enable it for you assuming the user that is running the script has appropriate permissions.
 
 ### Requirements
+  * [Google Cloud SDK](https://cloud.google.com/sdk?hl=en) installed and configured
   * Enable the [Identity and Access Management (IAM) API](https://console.developers.google.com/apis/api/iam.googleapis.com/overview) in your project
   * GCP Organization ID
   * GCP Project ID (the script will automatically enable the IAM API if needed)
